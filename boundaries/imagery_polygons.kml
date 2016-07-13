@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
-<Schema name="ImageryAreas" id="ImageryAreas">
+<Schema name="imagery_polygons" id="imagery_polygons">
 	<SimpleField name="codigo" type="string"></SimpleField>
 	<SimpleField name="GroupID" type="string"></SimpleField>
 	<SimpleField name="FeatureID" type="string"></SimpleField>
 	<SimpleField name="LandDesc" type="string"></SimpleField>
 	<SimpleField name="CropType" type="string"></SimpleField>
 </Schema>
-<Folder><name>ImageryAreas</name>
+<Folder><name>imagery_polygons</name>
   <Placemark>
 	<name>FF0101</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#ImageryAreas">
+	<ExtendedData><SchemaData schemaUrl="#imagery_polygons">
 		<SimpleData name="codigo">FF0101</SimpleData>
 		<SimpleData name="GroupID">01</SimpleData>
 		<SimpleData name="FeatureID">01</SimpleData>
@@ -24,7 +24,7 @@
   <Placemark>
 	<name>FF0201</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#ImageryAreas">
+	<ExtendedData><SchemaData schemaUrl="#imagery_polygons">
 		<SimpleData name="codigo">FF0201</SimpleData>
 		<SimpleData name="GroupID">02</SimpleData>
 		<SimpleData name="FeatureID">01</SimpleData>
@@ -36,7 +36,7 @@
   <Placemark>
 	<name>FF0306</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#ImageryAreas">
+	<ExtendedData><SchemaData schemaUrl="#imagery_polygons">
 		<SimpleData name="codigo">FF0306</SimpleData>
 		<SimpleData name="GroupID">03</SimpleData>
 		<SimpleData name="FeatureID">06</SimpleData>
@@ -48,7 +48,7 @@
   <Placemark>
 	<name>FF0301</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#ImageryAreas">
+	<ExtendedData><SchemaData schemaUrl="#imagery_polygons">
 		<SimpleData name="codigo">FF0301</SimpleData>
 		<SimpleData name="GroupID">03</SimpleData>
 		<SimpleData name="FeatureID">01</SimpleData>
@@ -60,7 +60,7 @@
   <Placemark>
 	<name>FF0302</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#ImageryAreas">
+	<ExtendedData><SchemaData schemaUrl="#imagery_polygons">
 		<SimpleData name="codigo">FF0302</SimpleData>
 		<SimpleData name="GroupID">03</SimpleData>
 		<SimpleData name="FeatureID">02</SimpleData>
@@ -72,7 +72,7 @@
   <Placemark>
 	<name>FF0303</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#ImageryAreas">
+	<ExtendedData><SchemaData schemaUrl="#imagery_polygons">
 		<SimpleData name="codigo">FF0303</SimpleData>
 		<SimpleData name="GroupID">03</SimpleData>
 		<SimpleData name="FeatureID">03</SimpleData>
@@ -84,7 +84,7 @@
   <Placemark>
 	<name>FF0304</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#ImageryAreas">
+	<ExtendedData><SchemaData schemaUrl="#imagery_polygons">
 		<SimpleData name="codigo">FF0304</SimpleData>
 		<SimpleData name="GroupID">03</SimpleData>
 		<SimpleData name="FeatureID">04</SimpleData>
@@ -96,7 +96,7 @@
   <Placemark>
 	<name>FF0305</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#ImageryAreas">
+	<ExtendedData><SchemaData schemaUrl="#imagery_polygons">
 		<SimpleData name="codigo">FF0305</SimpleData>
 		<SimpleData name="GroupID">03</SimpleData>
 		<SimpleData name="FeatureID">05</SimpleData>
@@ -108,7 +108,7 @@
   <Placemark>
 	<name>FF0307</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#ImageryAreas">
+	<ExtendedData><SchemaData schemaUrl="#imagery_polygons">
 		<SimpleData name="codigo">FF0307</SimpleData>
 		<SimpleData name="GroupID">03</SimpleData>
 		<SimpleData name="FeatureID">07</SimpleData>
