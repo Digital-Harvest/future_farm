@@ -11,10 +11,10 @@ The FutureFarm features a 14,000 square miles FAA Certifed UAS Test Range, high 
 
 ## 2016 Drone Rodeo
 
+#### Flight area basemap
 For [drone rodeo](http://www.pendletondrone.rodeo/) attendees, see our [flight area basemap](https://api.mapbox.com/v4/mariospeedwagon.114mcnb5/page.html?access_token=pk.eyJ1IjoibWFyaW9zcGVlZHdhZ29uIiwiYSI6IjhiOTc1ZGU4YjQ1OWNiOWQwODkxZWYwOGU5YmRkODA4In0.wXM2jdidnk5hGXmVLDk6Zg#16/45.8069/-119.0863).
 
 Users wishing to included it in a GCS basemap can use the public access token:
-
 `pk.eyJ1IjoibWFyaW9zcGVlZHdhZ29uIiwiYSI6IjhiOTc1ZGU4YjQ1OWNiOWQwODkxZWYwOGU5YmRkODA4In0.wXM2jdidnk5hGXmVLDk6Zg`
 
 *** 
@@ -25,7 +25,10 @@ This repository is for sharing information between Future Farm colaborators. It 
 
 ### Dev Notes
 
-None
+* August 2nd added up to date soil moisture data as `csv` files.
+* Next soil moisture upload planned for August 17th.
+* Satellite imagery upload planned for August 5th.
+
 
 *** 
 ![Partners](doc/img/partners.PNG)
