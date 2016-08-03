@@ -19,7 +19,7 @@ This repository is for sharing information between Future Farm colaborators. It 
 
 ### Dev Notes
 
-* SMS locations 0302 and 0303 in echo west should have sensors placed on them as soon as possible, the other three locations are proposed future locations when more sensors are available.
+* SMS locations 0302 and 0303 in echo west have soil moisture data, the other three locations are proposed future locations.
 
 *** 
 ![Partners](doc/img/partners.PNG)
