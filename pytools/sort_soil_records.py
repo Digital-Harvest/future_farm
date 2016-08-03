@@ -23,8 +23,8 @@ def ensure_sensors_named_and_sorted(sms_dat_path, verbose=True, force_rename=Fal
     df["DTG"] = df["DTG"].map(lambda x: datetime.strptime(x, DTG_FMT))  # format column as datetimes
 
     if "NAME" not in df.columns.values or force_rename:
-        df["FID"] = df["FID"].map(lambda x: int(x))
-        df["SID"] = df["SID"].map(lambda x: int(x))
+        df["FID"] = df["FID"].astype(int)
+        df["SID"] = df["SID"].astype(int)
         df["NAME"] = "SMS" + df["FID"].map(lambda x: str(x).zfill(2)).astype(str) + \
                      df["SID"].map(lambda x: str(x).zfill(2)).astype(str)
         df.sort_values(by=["NAME", "DTG"], inplace=True)
