@@ -45,14 +45,15 @@ def ensure_sensors_named_and_sorted(sms_dat_path, verbose=True, force_rename=Fal
             print("Names already present in file at {0}".format(os.path.abspath(sms_dat_path)))
 
 
-def main():
+def main(folder=None):
     """
     ensure sensors have names and everything is sorted for all files in soil folder
     """
 
-    folder = "../dat/soil"
-    sms_data_files = [os.path.join(folder, fname) for fname in os.listdir(folder) if fname.endswith(".csv")]
+    if folder is None:
+        folder = "../dat/soil"
 
+    sms_data_files = [os.path.join(folder, fname) for fname in os.listdir(folder) if fname.endswith(".csv")]
     for sms_data_file in sms_data_files:
         ensure_sensors_named_and_sorted(sms_data_file, force_rename=True)
 
