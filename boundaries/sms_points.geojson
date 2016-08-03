@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "SMS1903", "FID": 19, "SID": 3 }, "geometry": { "type": "Point", "coordinates": [ -119.1032932388753, 45.842836848891501 ] } },
+{ "type": "Feature", "properties": { "Name": "SMS1902", "FID": 19, "SID": 2 }, "geometry": { "type": "Point", "coordinates": [ -119.0835044056597, 45.812022662752021 ] } },
+{ "type": "Feature", "properties": { "Name": "SMS2001", "FID": 20, "SID": 1 }, "geometry": { "type": "Point", "coordinates": [ -119.18841970664501, 45.718229035499533 ] } },
+{ "type": "Feature", "properties": { "Name": "SMS2002", "FID": 20, "SID": 2 }, "geometry": { "type": "Point", "coordinates": [ -119.1860390634038, 45.714286930000547 ] } },
+{ "type": "Feature", "properties": { "Name": "SMS2003", "FID": 20, "SID": 3 }, "geometry": { "type": "Point", "coordinates": [ -119.1876163743855, 45.721070618260697 ] } },
+{ "type": "Feature", "properties": { "Name": "SMS2004", "FID": 20, "SID": 4 }, "geometry": { "type": "Point", "coordinates": [ -119.1891992110573, 45.713541755969601 ] } }
+]
+}
