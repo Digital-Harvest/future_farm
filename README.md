@@ -21,7 +21,7 @@ Users wishing to included it in a GCS basemap can use the public access token:
 
 ## This `future_farm` repository
 
-This repository is for sharing information between Future Farm colaborators. It contains boundaries, ground sensor locations and histories. Hefty data archives may be stored on other services, but access to all resources should be documented here.
+This repository is for sharing information between Future Farm colaborators. It contains boundaries, ground sensor locations and histories as well as satellite imagery over our [imagery areas](boundaries/imagery_polygons.geojson).
 
 ### Dev Notes
 
