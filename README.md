@@ -8,10 +8,12 @@ The FutureFarm features a 14,000 square miles FAA Certifed UAS Test Range, high 
 
 ”The Oregon UAS FutureFarm is a ’real world’ proving ground designed to help Digital Agriculture Pioneers accelerate product development, cycles and market growth.”
 
+
+## 2016 Drone Rodeo
+
+For [drone rodeo](http://www.pendletondrone.rodeo/) attendees, see our [flight area basemap](https://api.mapbox.com/v4/mariospeedwagon.114mcnb5/page.html?access_token=pk.eyJ1IjoibWFyaW9zcGVlZHdhZ29uIiwiYSI6IjhiOTc1ZGU4YjQ1OWNiOWQwODkxZWYwOGU5YmRkODA4In0.wXM2jdidnk5hGXmVLDk6Zg#16/45.8069/-119.0863)
+
 *** 
-
-
-
 
 ## This `future_farm` repository
 
