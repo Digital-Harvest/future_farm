@@ -25,7 +25,7 @@ This repository is for sharing information between Future Farm colaborators. It 
 
 ### Dev Notes
 
-* SMS locations 0302 and 0303 in echo west have soil moisture data, the other three locations are proposed future locations.
+None
 
 *** 
 ![Partners](doc/img/partners.PNG)
