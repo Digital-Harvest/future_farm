@@ -11,6 +11,11 @@ The FutureFarm features a 14,000 square miles FAA Certifed UAS Test Range, high 
 
 ## 2016 Drone Rodeo
 
+
+#### Data download
+
+To download the contents of this repository, including satellite data and soil moisture records, simply clone this repository, or click [here](https://github.com/Digital-Harvest/future_farm/archive/master.zip) 
+
 #### Flight area basemap
 For [drone rodeo](http://www.pendletondrone.rodeo/) attendees, see our [flight area basemap](https://api.mapbox.com/v4/mariospeedwagon.114mcnb5/page.html?access_token=pk.eyJ1IjoibWFyaW9zcGVlZHdhZ29uIiwiYSI6IjhiOTc1ZGU4YjQ1OWNiOWQwODkxZWYwOGU5YmRkODA4In0.wXM2jdidnk5hGXmVLDk6Zg#16/45.8069/-119.0863).
 
