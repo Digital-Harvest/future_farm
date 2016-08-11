@@ -1,5 +1,6 @@
 import pandas as pd
 from datetime import datetime
+import seaborn as sns
 import os
 
 DTG_FMT = "%Y-%m-%d %H:%M:%S"
@@ -27,6 +28,8 @@ def ensure_sensors_named_and_sorted(sms_dat_path, verbose=True, force_rename=Fal
         df["SID"] = df["SID"].astype(int)
         df["NAME"] = "SMS" + df["FID"].map(lambda x: str(x).zfill(2)).astype(str) + \
                      df["SID"].map(lambda x: str(x).zfill(2)).astype(str)
+        df["DATE"] = df["DTG"].map(lambda x: datetime(x.year, x.month, x.day).strftime("%m-%d"))
+
         df.sort_values(by=["NAME", "DTG"], inplace=True)
 
         # ensure Name column comes out as first column for readable csvs
@@ -45,17 +48,31 @@ def ensure_sensors_named_and_sorted(sms_dat_path, verbose=True, force_rename=Fal
             print("Names already present in file at {0}".format(os.path.abspath(sms_dat_path)))
 
 
-def main(folder=None):
+def plot_data(df):
+    """ simple plots of soil moisture records """
+
+    # melt dataframes three sensor depths into a reading column and depth column
+    df = pd.melt(df, id_vars=["NAME", "FID", "SID", "DTG", "DATE", "TEMP"], var_name="DEPTH", value_name="READING")
+
+    for station in df["NAME"].unique():
+        sns.factorplot("DATE", "READING", hue="DEPTH", data=df[df["NAME"] == station])
+        sns.plt.title(station)
+        sns.plt.show()
+
+
+def main(folder=None, plots=True):
     """
     ensure sensors have names and everything is sorted for all files in soil folder
     """
 
     if folder is None:
-        folder = "../dat/soil"
+        folder = "../dat/soilmoisture"
 
     sms_data_files = [os.path.join(folder, fname) for fname in os.listdir(folder) if fname.endswith(".csv")]
     for sms_data_file in sms_data_files:
         ensure_sensors_named_and_sorted(sms_data_file, force_rename=True)
+        if plots:
+            plot_data(pd.read_csv(sms_data_file))
 
 
 if __name__ == "__main__":
