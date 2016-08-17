@@ -30,10 +30,7 @@ This repository is for sharing information between Future Farm colaborators. It 
 
 ### Dev Notes
 
-* August 2nd added up to date soil moisture data as `csv` files.
-* Next soil moisture upload planned for August 17th.
-* Satellite imagery was uploaded for the stahl pivots on August 4th, data going back to early April.
-* Satellite imagery upload for the echo west/ snow road area planned for August 8th
+* satellite data updated through August 14th, and soil moisture data through August 17th
 
 
 *** 
